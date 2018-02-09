@@ -22,11 +22,11 @@ void setup()
 void loop()
 {
   //digitalWrite(LM1, HIGH);
-   /*digitalWrite(LM1, 0);
-    digitalWrite(LM2, LOW);
-    digitalWrite(RM1, 0);
+   digitalWrite(LM1, HIGH);
+   digitalWrite(LM2, LOW);
+    digitalWrite(RM1, HIGH);
     digitalWrite(RM2, LOW);
-  */
+  /*
   if(digitalRead(LS) && digitalRead(RS))     // Move Forward
   {
     digitalWrite(LM1, HIGH);
@@ -63,5 +63,6 @@ void loop()
     Serial.println("stop");
   }
   //stop();
+*/
 }
 
